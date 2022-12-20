@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>weather Dashboard</title>
+</head>
+
+<body>
+
+    <nav class="navbar justify-content-center">
+        <a class="navbar-brand" href="#"></a>
+        <h2>weather Dashboard</h2>
+    </nav>
+
+
+    <div class="row">
+        <div class="col-3">
+            <form class="form-group my-2" id="city-form">
+                <div class="form-group mb-2">
+                    <h4 class="col-12">Search for a city:</h4>
+                </div>
+
+                <div class="form-group mb-2">
+                    <input type="text" class="form-control" id="city-name" placeholder="San Jose">
+                </div>
+                <input type="submit" value="search" class="search-button my-4">
+                <hr>
+                <div class="col-12" id="city-list">
+                    <div class="list-group d-flex flex-column" id="city-list"></div>
+                </div>
+            </form>
+        </div>
+        <div class="col-9">
+            <div class="container">
+                <h3 class="display-7 city-name" id="city-header">Texas (4/20/2022)</h3>
+                <div class="infor">
+                    <div id="temp-header">Temp: 69.03 °F </div>
+                    <div id="wind-header">wind: 2.30 MPH </div>
+                    <div id="humidity-header"> 62 % </div>
+                    <div id="uvi-header">Uv Index: 1.5 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h4 class="1h-base align-content-center"> 5-day Forecast:</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-2 border forecast mx-2 flex-fill">
+                <h5 id="date2">4/21/2021</h5>
+                <div id="icon2"></div>
+                <div id="temp2">temp: 73.72 °F</div>
+                <div id="wind2">Wind: 10 MPH</div>
+                <div id="humidity2">Humidity: 22%</div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-2 border forecast mx-2 flex-fill">
+                <h5 id="date2">4/22/2021</h5>
+                <div id="icon2"></div>
+                <div id="temp2">temp: 80.1 °F</div>
+                <div id="wind2">Wind: 6 MPH</div>
+                <div id="humidity2">Humidity: 4%</div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-2 border forecast mx-2 flex-fill">
+                <h5 id="date2">4/23/2021</h5>
+                <div id="icon2"></div>
+                <div id="temp2">temp: 70.00 °F</div>
+                <div id="wind2">Wind: 5 MPH</div>
+                <div id="humidity2">Humidity: 11%</div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-2 border forecast mx-2 flex-fill">
+                <h5 id="date2">4/23/2021</h5>
+                <div id="icon2"></div>
+                <div id="temp2">temp: 69.00 °F</div>
+                <div id="wind2">Wind: 13MPH</div>
+                <div id="humidity2">Humidity: 31%</div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-2 border forecast mx-2 flex-fill">
+                <h5 id="date2">4/24/2021</h5>
+                <div id="icon2"></div>
+                <div id="temp2">temp: 79.00 °F</div>
+                <div id="wind2">Wind: 2 MPH</div>
+                <div id="humidity2">Humidity: 41%</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+
+</html>

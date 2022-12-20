@@ -1,0 +1,35 @@
+.navbar {
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 43%, rgba(2,0,36,1) 100%);
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .jumbotron {
+    margin-top: 10px;
+    line-height: 200%;
+  }
+  
+  .forecast {
+    background: rgba(9,9,121,1); 
+    color: white;
+    line-height: 1.5em;
+  }
+  
+  .search-button {
+    background: #00beff; 
+    border-radius: 0.5em;
+    width: 100%;
+  }
+  
+  #uvi-header {
+    border: 1px;
+  }
+  
+  button {
+    width: 100%;
+    border-radius: 0.5em;
+    margin-block: 5px;
+  } 
